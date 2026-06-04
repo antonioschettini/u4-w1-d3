@@ -14,7 +14,6 @@ public class Sim {
     }
 
     //---Metodi
-
     // metodo per inserire un numero nell'array liste chiamate
     public void setListaChiamate(Chiamata[] nuoveChiamate) {
         if (nuoveChiamate != null && nuoveChiamate.length == 5) {
@@ -35,7 +34,7 @@ public class Sim {
 
         for (int i = 0; i < listaChiamate.length; i++) {
             if (listaChiamate[i] != null) {
-                System.out.println((i + 1) + " Chiamata al: " + listaChiamate[i].getNumeroChiamato() + "Durata della chiamata: " + listaChiamate[i].getDurataMinuti() + " minuti");
+                System.out.println((i + 1) + " Chiamata al: " + listaChiamate[i].getNumeroChiamato() + " Durata della chiamata: " + listaChiamate[i].getDurataMinuti() + " minuti");
                 chiamatePresenti = true;
             }
         }
